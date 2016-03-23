@@ -8,5 +8,4 @@ Mthods manipulate state and perform operations
 - Use return keyword to exit and/or return a value
 Field store object state
 - Interaction normally controlled through accessors(getters) and mutators(setters). Use methods to change data of fields without affecting usage of our class.
-
 */
