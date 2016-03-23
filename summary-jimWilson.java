@@ -9,3 +9,18 @@ Mthods manipulate state and perform operations
 Field store object state
 - Interaction normally controlled through accessors(getters) and mutators(setters). Use methods to change data of fields without affecting usage of our class.
 */
+
+
+/* Class Initializers and Constructors
+Objects should be created in some useful state. should not be error based
+Field initializers provide an initial value as part of the declaration
+Every class has at least one constructor
+- If not explicit constructor, Java provides one with no arguments
+- You can provide multiple constructors with differing argument lists
+One constructor can call another. (Chaining)
+- Call must be first line
+Initialization blocks share code across constructors 
+- No constructors but just brackets {...}
+Keep the initialization and construction order in mind
+- 1. Field initialization, 2. Initialization blocks, 3. Constructors
+*/
