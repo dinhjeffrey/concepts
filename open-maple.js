@@ -1,4 +1,4 @@
-/* Open Maple 
+/* Open Maple ```javascript```
 Given an array of characters X, write a function that displays the character with the highest frequency. If a tie occurs, any valid choice of character is acceptable.
 
 Example Case:
@@ -13,7 +13,6 @@ OR
 Output:
 p
 */
-
 var mostCharacters = (arr) => {
 	var freq = {}
 	arr.map((char) => {
